@@ -7,10 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Users usersList = new Users();
+        Users usersModel = new Users();
         UsersView usersView = new UsersView();
         UsersDb usersDb = new UsersDb();
-        UsersController usersController = new UsersController(usersList, usersView, usersDb);
+        UsersController usersController = new UsersController(usersModel, usersView, usersDb);
 
         usersController.usersMenuController ();
     }
