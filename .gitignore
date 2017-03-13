@@ -1,5 +1,4 @@
 .idea
-*.iml
 *.iws
 .DS_Store
 out/
